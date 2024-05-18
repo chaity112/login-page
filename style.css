@@ -1,0 +1,43 @@
+body {
+    background-image: url("./bg.webp");
+    display: flex;
+ 
+
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 40%;
+    justify-content: center;
+    background-color: rgb(204, 241, 244);
+    text-transform: uppercase;
+    color: rgb(17, 105, 177);
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin-left: 20px;
+}
+
+.username {
+    padding-right: 8px;
+}
+.container input{
+    color: rgb(59, 143, 143);
+}
+
+.btn {
+
+    background-color: rgb(18, 214, 248);
+    border-radius: 10px;
+    padding: 0px 50px;
+    color: white;
+    border-color: rgb(18, 214, 248);
+    margin-left: 50px;
+    margin-top: 10px;
+}
